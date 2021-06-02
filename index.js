@@ -1,4 +1,5 @@
-alert("Click the refresh buttton again and again to play the game!");
+var a = ("Click the refresh buttton again and again to play the game!");
+console.log(a);
 var random_number = Math.floor(Math.random()*6)+1;
 var random_choice = "images/dice"+random_number+".png";
 var changing_attribute = document.querySelectorAll("img")[0];
